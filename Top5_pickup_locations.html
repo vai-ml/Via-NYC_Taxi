@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_61bbf73a48884d90bf422417c647b105 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_61bbf73a48884d90bf422417c647b105" ></div>
+        
+</body>
+<script>    
+    
+            var map_61bbf73a48884d90bf422417c647b105 = L.map(
+                "map_61bbf73a48884d90bf422417c647b105",
+                {
+                    center: [40.7128, -74.006],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_61bbf73a48884d90bf422417c647b105);
+
+            
+
+        
+    
+            var tile_layer_8eada273e68642d79a0823f1bc7e1cbd = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_61bbf73a48884d90bf422417c647b105);
+        
+    
+            var marker_652211565e614079891d333fd2fbd866 = L.marker(
+                [0.0, 0.0],
+                {}
+            ).addTo(map_61bbf73a48884d90bf422417c647b105);
+        
+    
+        var popup_e564631105c6456fb4d0fd2dbd87a49f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3f9f1e3548942c49f7254692c1abbfb = $(`<div id="html_c3f9f1e3548942c49f7254692c1abbfb" style="width: 100.0%; height: 100.0%;"><i>Chicago City Center</i></div>`)[0];
+            popup_e564631105c6456fb4d0fd2dbd87a49f.setContent(html_c3f9f1e3548942c49f7254692c1abbfb);
+        
+
+        marker_652211565e614079891d333fd2fbd866.bindPopup(popup_e564631105c6456fb4d0fd2dbd87a49f)
+        ;
+
+        
+    
+    
+            var marker_63dcf9afdb894ddd86d2b6bb02182692 = L.marker(
+                [40.744915, -73.949043],
+                {}
+            ).addTo(map_61bbf73a48884d90bf422417c647b105);
+        
+    
+        var popup_eaeb8e1e78b743d9a2288e0c4cd4518d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d264d5fe14394f6abd43c22546c7e896 = $(`<div id="html_d264d5fe14394f6abd43c22546c7e896" style="width: 100.0%; height: 100.0%;"><i>Chicago City Center</i></div>`)[0];
+            popup_eaeb8e1e78b743d9a2288e0c4cd4518d.setContent(html_d264d5fe14394f6abd43c22546c7e896);
+        
+
+        marker_63dcf9afdb894ddd86d2b6bb02182692.bindPopup(popup_eaeb8e1e78b743d9a2288e0c4cd4518d)
+        ;
+
+        
+    
+    
+            var marker_d01b4831201e4c2aa58260dbedcd1c69 = L.marker(
+                [40.758148, -73.937523],
+                {}
+            ).addTo(map_61bbf73a48884d90bf422417c647b105);
+        
+    
+        var popup_c5c20cc2cc944cddb72980db95de01ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c675765a6eb141cd9d9b33efb39e7940 = $(`<div id="html_c675765a6eb141cd9d9b33efb39e7940" style="width: 100.0%; height: 100.0%;"><i>Chicago City Center</i></div>`)[0];
+            popup_c5c20cc2cc944cddb72980db95de01ff.setContent(html_c675765a6eb141cd9d9b33efb39e7940);
+        
+
+        marker_d01b4831201e4c2aa58260dbedcd1c69.bindPopup(popup_c5c20cc2cc944cddb72980db95de01ff)
+        ;
+
+        
+    
+    
+            var marker_bbdca5bf17a34aeca7fb80b55bf2610b = L.marker(
+                [40.758010999999996, -73.937584],
+                {}
+            ).addTo(map_61bbf73a48884d90bf422417c647b105);
+        
+    
+        var popup_e831409573b34f01a0d936ea42e4ce28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1cd39c7c7174331a9406444bbeb8e49 = $(`<div id="html_f1cd39c7c7174331a9406444bbeb8e49" style="width: 100.0%; height: 100.0%;"><i>Chicago City Center</i></div>`)[0];
+            popup_e831409573b34f01a0d936ea42e4ce28.setContent(html_f1cd39c7c7174331a9406444bbeb8e49);
+        
+
+        marker_bbdca5bf17a34aeca7fb80b55bf2610b.bindPopup(popup_e831409573b34f01a0d936ea42e4ce28)
+        ;
+
+        
+    
+    
+            var marker_14080e6067fa43b8a5c3ccfa7baa1447 = L.marker(
+                [40.759426, -73.965034],
+                {}
+            ).addTo(map_61bbf73a48884d90bf422417c647b105);
+        
+    
+        var popup_cdc69fd940cf4500810f688bdcd9694d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fed675d2a5cc4a6cb53aecb0c1a08502 = $(`<div id="html_fed675d2a5cc4a6cb53aecb0c1a08502" style="width: 100.0%; height: 100.0%;"><i>Chicago City Center</i></div>`)[0];
+            popup_cdc69fd940cf4500810f688bdcd9694d.setContent(html_fed675d2a5cc4a6cb53aecb0c1a08502);
+        
+
+        marker_14080e6067fa43b8a5c3ccfa7baa1447.bindPopup(popup_cdc69fd940cf4500810f688bdcd9694d)
+        ;
+
+        
+    
+    
+            var marker_7c3d4d5779634c10b1bc394314fb9417 = L.marker(
+                [40.83717, -73.850418],
+                {}
+            ).addTo(map_61bbf73a48884d90bf422417c647b105);
+        
+    
+        var popup_344fd4296fe146f986a9485fb870674b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2c0f525878443f3a5ba4b14a283630e = $(`<div id="html_c2c0f525878443f3a5ba4b14a283630e" style="width: 100.0%; height: 100.0%;"><i>Chicago City Center</i></div>`)[0];
+            popup_344fd4296fe146f986a9485fb870674b.setContent(html_c2c0f525878443f3a5ba4b14a283630e);
+        
+
+        marker_7c3d4d5779634c10b1bc394314fb9417.bindPopup(popup_344fd4296fe146f986a9485fb870674b)
+        ;
+
+        
+    
+    
+            var marker_771f1d1925084e4a9763eed82b961548 = L.marker(
+                [40.684944, -73.98586999999999],
+                {}
+            ).addTo(map_61bbf73a48884d90bf422417c647b105);
+        
+    
+        var popup_aa9b6e2017d147719cb350eb3e4cd640 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27501fa423f44460a6d4f5efbd84da14 = $(`<div id="html_27501fa423f44460a6d4f5efbd84da14" style="width: 100.0%; height: 100.0%;"><i>Chicago City Center</i></div>`)[0];
+            popup_aa9b6e2017d147719cb350eb3e4cd640.setContent(html_27501fa423f44460a6d4f5efbd84da14);
+        
+
+        marker_771f1d1925084e4a9763eed82b961548.bindPopup(popup_aa9b6e2017d147719cb350eb3e4cd640)
+        ;
+
+        
+    
+    
+            var marker_15f53a02fc9949df8e943579a7ee128c = L.marker(
+                [40.631966, -73.977379],
+                {}
+            ).addTo(map_61bbf73a48884d90bf422417c647b105);
+        
+    
+        var popup_363ee60317724c30bb5dcabb499feb51 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f823897e1ee34ec5b89e42d92e291312 = $(`<div id="html_f823897e1ee34ec5b89e42d92e291312" style="width: 100.0%; height: 100.0%;"><i>Chicago City Center</i></div>`)[0];
+            popup_363ee60317724c30bb5dcabb499feb51.setContent(html_f823897e1ee34ec5b89e42d92e291312);
+        
+
+        marker_15f53a02fc9949df8e943579a7ee128c.bindPopup(popup_363ee60317724c30bb5dcabb499feb51)
+        ;
+
+        
+    
+    
+            var marker_9c991e275d3244aba6a7ba4c533b7702 = L.marker(
+                [40.783367, -73.945297],
+                {}
+            ).addTo(map_61bbf73a48884d90bf422417c647b105);
+        
+    
+        var popup_aae7389747814e5d8484f33b580ebafe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ac11136e6be4e838de901607d0bee9c = $(`<div id="html_0ac11136e6be4e838de901607d0bee9c" style="width: 100.0%; height: 100.0%;"><i>Chicago City Center</i></div>`)[0];
+            popup_aae7389747814e5d8484f33b580ebafe.setContent(html_0ac11136e6be4e838de901607d0bee9c);
+        
+
+        marker_9c991e275d3244aba6a7ba4c533b7702.bindPopup(popup_aae7389747814e5d8484f33b580ebafe)
+        ;
+
+        
+    
+    
+            var marker_c6dfdf69a0d249bbba4c597a6f49d66a = L.marker(
+                [40.71283, -74.008286],
+                {}
+            ).addTo(map_61bbf73a48884d90bf422417c647b105);
+        
+    
+        var popup_6d8690db64d74fdb918b2195164a029b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_edb6a152f209472e95d6f5f415fea623 = $(`<div id="html_edb6a152f209472e95d6f5f415fea623" style="width: 100.0%; height: 100.0%;"><i>Chicago City Center</i></div>`)[0];
+            popup_6d8690db64d74fdb918b2195164a029b.setContent(html_edb6a152f209472e95d6f5f415fea623);
+        
+
+        marker_c6dfdf69a0d249bbba4c597a6f49d66a.bindPopup(popup_6d8690db64d74fdb918b2195164a029b)
+        ;
+
+        
+    
+    
+            var marker_a7ca8dc3bb1b470886a62cc9f04f5d60 = L.marker(
+                [40.763824, -73.903],
+                {}
+            ).addTo(map_61bbf73a48884d90bf422417c647b105);
+        
+    
+        var popup_ddcdb6a18dab4233b3fe4cfa63029c4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2757066777454d3a88ec87fd64a08536 = $(`<div id="html_2757066777454d3a88ec87fd64a08536" style="width: 100.0%; height: 100.0%;"><i>Chicago City Center</i></div>`)[0];
+            popup_ddcdb6a18dab4233b3fe4cfa63029c4f.setContent(html_2757066777454d3a88ec87fd64a08536);
+        
+
+        marker_a7ca8dc3bb1b470886a62cc9f04f5d60.bindPopup(popup_ddcdb6a18dab4233b3fe4cfa63029c4f)
+        ;
+
+        
+    
+    
+            var marker_2fc63d0832314d6a8d2f7995227ec29a = L.marker(
+                [40.752983, -73.974388],
+                {}
+            ).addTo(map_61bbf73a48884d90bf422417c647b105);
+        
+    
+        var popup_a96691475dbb4abfbbe32b9601588f6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6270e28b3714cc49cc7d91e9689250f = $(`<div id="html_b6270e28b3714cc49cc7d91e9689250f" style="width: 100.0%; height: 100.0%;"><i>Chicago City Center</i></div>`)[0];
+            popup_a96691475dbb4abfbbe32b9601588f6f.setContent(html_b6270e28b3714cc49cc7d91e9689250f);
+        
+
+        marker_2fc63d0832314d6a8d2f7995227ec29a.bindPopup(popup_a96691475dbb4abfbbe32b9601588f6f)
+        ;
+
+        
+    
+    
+            var marker_3f9335b3713b46c2bcdcf477e47f9a8b = L.marker(
+                [40.726818, -73.867592],
+                {}
+            ).addTo(map_61bbf73a48884d90bf422417c647b105);
+        
+    
+        var popup_4afcccaa94ea4d58af0a641852716b31 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa5f96b045094645ad1765b55eb29743 = $(`<div id="html_fa5f96b045094645ad1765b55eb29743" style="width: 100.0%; height: 100.0%;"><i>Chicago City Center</i></div>`)[0];
+            popup_4afcccaa94ea4d58af0a641852716b31.setContent(html_fa5f96b045094645ad1765b55eb29743);
+        
+
+        marker_3f9335b3713b46c2bcdcf477e47f9a8b.bindPopup(popup_4afcccaa94ea4d58af0a641852716b31)
+        ;
+
+        
+    
+    
+            var marker_1ab1be26c5e24d5ab9719885e9bd0683 = L.marker(
+                [40.760349, -73.923698],
+                {}
+            ).addTo(map_61bbf73a48884d90bf422417c647b105);
+        
+    
+        var popup_4d3474942bc945458ef0ca684fbb0d22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9f05e1b511a4aec945dd4dc8e3c616c = $(`<div id="html_a9f05e1b511a4aec945dd4dc8e3c616c" style="width: 100.0%; height: 100.0%;"><i>Chicago City Center</i></div>`)[0];
+            popup_4d3474942bc945458ef0ca684fbb0d22.setContent(html_a9f05e1b511a4aec945dd4dc8e3c616c);
+        
+
+        marker_1ab1be26c5e24d5ab9719885e9bd0683.bindPopup(popup_4d3474942bc945458ef0ca684fbb0d22)
+        ;
+
+        
+    
+    
+            var marker_ec371720463c419d934034cc92a91e3b = L.marker(
+                [40.758453, -73.937477],
+                {}
+            ).addTo(map_61bbf73a48884d90bf422417c647b105);
+        
+    
+        var popup_c53571734fd34c0abb9734ac24b54338 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6570189e80d456bb109922ee679fe51 = $(`<div id="html_d6570189e80d456bb109922ee679fe51" style="width: 100.0%; height: 100.0%;"><i>Chicago City Center</i></div>`)[0];
+            popup_c53571734fd34c0abb9734ac24b54338.setContent(html_d6570189e80d456bb109922ee679fe51);
+        
+
+        marker_ec371720463c419d934034cc92a91e3b.bindPopup(popup_c53571734fd34c0abb9734ac24b54338)
+        ;
+
+        
+    
+    
+            var marker_644e85d428fa451fb7d768fc427ea662 = L.marker(
+                [40.737007, -73.993027],
+                {}
+            ).addTo(map_61bbf73a48884d90bf422417c647b105);
+        
+    
+        var popup_2bf6157098474efcadb311a817f10d44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc16274cf979475fa587736f2a2fb787 = $(`<div id="html_cc16274cf979475fa587736f2a2fb787" style="width: 100.0%; height: 100.0%;"><i>Chicago City Center</i></div>`)[0];
+            popup_2bf6157098474efcadb311a817f10d44.setContent(html_cc16274cf979475fa587736f2a2fb787);
+        
+
+        marker_644e85d428fa451fb7d768fc427ea662.bindPopup(popup_2bf6157098474efcadb311a817f10d44)
+        ;
+
+        
+    
+    
+            var marker_24866974de7e4d0883ec2d6b7b6dd835 = L.marker(
+                [40.770645, -73.99078399999999],
+                {}
+            ).addTo(map_61bbf73a48884d90bf422417c647b105);
+        
+    
+        var popup_99f8738d8193494b8c02f735a7912320 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0503108efb1947bf869f9261415ab42d = $(`<div id="html_0503108efb1947bf869f9261415ab42d" style="width: 100.0%; height: 100.0%;"><i>Chicago City Center</i></div>`)[0];
+            popup_99f8738d8193494b8c02f735a7912320.setContent(html_0503108efb1947bf869f9261415ab42d);
+        
+
+        marker_24866974de7e4d0883ec2d6b7b6dd835.bindPopup(popup_99f8738d8193494b8c02f735a7912320)
+        ;
+
+        
+    
+    
+            var marker_edd02d13a4b34ba3b92391eecc8a0343 = L.marker(
+                [40.765759, -73.983627],
+                {}
+            ).addTo(map_61bbf73a48884d90bf422417c647b105);
+        
+    
+        var popup_d6a47d1583564ad3a2c22cb25a975fb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91e9a0c06512479dbc46a80637a3bec7 = $(`<div id="html_91e9a0c06512479dbc46a80637a3bec7" style="width: 100.0%; height: 100.0%;"><i>Chicago City Center</i></div>`)[0];
+            popup_d6a47d1583564ad3a2c22cb25a975fb7.setContent(html_91e9a0c06512479dbc46a80637a3bec7);
+        
+
+        marker_edd02d13a4b34ba3b92391eecc8a0343.bindPopup(popup_d6a47d1583564ad3a2c22cb25a975fb7)
+        ;
+
+        
+    
+    
+            var marker_8aaeea92a7a5499f8dd1fc082addcc09 = L.marker(
+                [40.738625, -73.88443000000001],
+                {}
+            ).addTo(map_61bbf73a48884d90bf422417c647b105);
+        
+    
+        var popup_fab5eb4022f742189e7361670c921695 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6646f8e61fdd420b8c343796245306c3 = $(`<div id="html_6646f8e61fdd420b8c343796245306c3" style="width: 100.0%; height: 100.0%;"><i>Chicago City Center</i></div>`)[0];
+            popup_fab5eb4022f742189e7361670c921695.setContent(html_6646f8e61fdd420b8c343796245306c3);
+        
+
+        marker_8aaeea92a7a5499f8dd1fc082addcc09.bindPopup(popup_fab5eb4022f742189e7361670c921695)
+        ;
+
+        
+    
+    
+            var marker_64b88eae16e445f891b7a0835ad8430f = L.marker(
+                [40.746544, -73.929001],
+                {}
+            ).addTo(map_61bbf73a48884d90bf422417c647b105);
+        
+    
+        var popup_5327adb999ad4c038b49c20b94608afb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ef3c7844eca499a85af0203bb1ffdd3 = $(`<div id="html_1ef3c7844eca499a85af0203bb1ffdd3" style="width: 100.0%; height: 100.0%;"><i>Chicago City Center</i></div>`)[0];
+            popup_5327adb999ad4c038b49c20b94608afb.setContent(html_1ef3c7844eca499a85af0203bb1ffdd3);
+        
+
+        marker_64b88eae16e445f891b7a0835ad8430f.bindPopup(popup_5327adb999ad4c038b49c20b94608afb)
+        ;
+
+        
+    
+</script>
