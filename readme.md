@@ -23,7 +23,10 @@ would scale with more data; in other words, discuss the complexity of your imple
 efficiency varies with time and location. Discuss any potential business implications based on
 your findings.
 
-Please see my [notebook](https://github.com/vai-ml/Via-NYC_Taxi/blob/master/Via-NYC_Taxi.ipynb) for detailed approach on aggregating  trips and some insight on time complexity. In future I will upload my presentation that I submitted as solution
+Please see my [notebook](https://github.com/vai-ml/Via-NYC_Taxi/blob/master/Via-NYC_Taxi.ipynb) for detailed approach on aggregating  trips and some insight on time complexity.
+For best results please use [NBViewer](https://nbviewer.jupyter.org/github/vai-ml/Via-NYC_Taxi/blob/master/Via-NYC_Taxi.ipynb) to see the notebook. 
+
+ In future I will upload my presentation that I submitted as solution
 
 
 
