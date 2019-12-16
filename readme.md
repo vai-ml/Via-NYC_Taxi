@@ -35,7 +35,7 @@ advance. Answer the following questions theoretically:
             Propose a way to predict performance of the demand algorithm in a city VIA is considering 
             operating in.
 
-          b) A data scientist builds a new demand prediction algorithm, but it is more resource
+         b) A data scientist builds a new demand prediction algorithm, but it is more resource
              intensive than the current one - we'll only switch if we're sure the new one is better. How
              would you determine if the new algorithm is worth it?
 
